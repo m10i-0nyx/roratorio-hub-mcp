@@ -1,0 +1,18 @@
+{
+    "name": "roratoriohub-playwright-mcp",
+    "version": "0.1.0",
+    "main": "dist/index.js",
+    "scripts": {
+        "dev": "ts-node src/index.ts",
+        "build": "tsc",
+        "pkg": "pkg . --targets node18-win-x64 --output roratoriohub-mcp.exe"
+    },
+    "dependencies": {
+        "playwright": "^1.48.0"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.0",
+        "pkg": "^5.8.1"
+    }
+}
